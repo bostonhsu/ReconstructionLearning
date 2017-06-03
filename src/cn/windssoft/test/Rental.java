@@ -25,7 +25,7 @@ public class Rental {
 	}
 
 	/**
-	 * @deprecated Use {@link cn.windssoft.test.Movie#getFrequentRenterPoints(cn.windssoft.test.Rental)} instead
+	 * @deprecated Use {@link #MISSING()} instead
 	 */
 	public int getFrequentRenterPoints() {
 		return _movie.getFrequentRenterPoints(_daysRented);
