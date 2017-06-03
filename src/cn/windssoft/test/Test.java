@@ -5,7 +5,7 @@ public class Test {
 	public static void main(String[] args) {
 		Customer customers[] = new Customer[5];
 		for (int i = 0; i < customers.length; i++) {
-			customers[i] = new Customer(String.valueOf(i));
+			customers[i] = new Customer("Customer" + String.valueOf(i));
 		}
 		
 		Movie movie1 = new Movie("Test1", Movie.CHILDENS);
