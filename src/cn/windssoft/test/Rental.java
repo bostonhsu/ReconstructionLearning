@@ -18,7 +18,7 @@ public class Rental {
 	}
 	
 	/**
-	 * @deprecated Use {@link cn.windssoft.test.Movie#getCharge(cn.windssoft.test.Rental)} instead
+	 * @deprecated Use {@link #MISSING()} instead
 	 */
 	public double getCharge() {
 		return _movie.getCharge(_daysRented);
