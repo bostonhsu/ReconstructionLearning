@@ -24,12 +24,10 @@ public class Rental {
 		return _movie.getCharge(_daysRented);
 	}
 
+	/**
+	 * @deprecated Use {@link cn.windssoft.test.Movie#getFrequentRenterPoints(cn.windssoft.test.Rental)} instead
+	 */
 	public int getFrequentRenterPoints() {
-		int result = 1;
-		if ((getMovie().getPriceCode() == Movie.NEW_RELEASE) &&
-				getDaysRented() > 1) {
-			result ++;
-		}
-		return result;
+		return _movie.getFrequentRenterPoints(_daysRented);
 	}
 }
