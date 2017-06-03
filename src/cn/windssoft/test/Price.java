@@ -2,25 +2,21 @@ package cn.windssoft.test;
 
 abstract class Price {
 	abstract int getPriceCode();
-
-	public double getCharge(int daysRented) {
-		double result = 0;
-		switch (getPriceCode()) {
-		case Movie.CHILDENS:
-			result += 1.5;
-			if (daysRented > 3) {
-				result += (daysRented - 3) * 1.5;
-			}
-			break;
-		}
-		return result;
-	}
+	public abstract double getCharge(int daysRented);
 }
 
 class ChildensPrice extends Price {
 	@Override
 	int getPriceCode() {
 		return Movie.CHILDENS;
+	}
+	
+	public double getCharge(int daysRented) {
+		double result = 1.5;
+		if (daysRented > 3) {
+			result += (daysRented - 3) * 1.5;
+		}
+		return result;
 	}
 }
 
