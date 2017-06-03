@@ -6,10 +6,6 @@ abstract class Price {
 	public double getCharge(int daysRented) {
 		double result = 0;
 		switch (getPriceCode()) {
-		
-		case Movie.NEW_RELEASE:
-			result += daysRented * 3;
-			break;
 		case Movie.CHILDENS:
 			result += 1.5;
 			if (daysRented > 3) {
@@ -32,6 +28,10 @@ class NewReleasePrice extends Price {
 	@Override
 	int getPriceCode() {
 		return Movie.NEW_RELEASE;
+	}
+	
+	public double getCharge(int daysRented) {
+		return daysRented * 3;
 	}
 }
 
