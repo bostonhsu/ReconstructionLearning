@@ -3,26 +3,22 @@ package cn.windssoft.test;
 public class Test {
 
 	public static void main(String[] args) {
-		Customer customers[] = new Customer[5];
-		for (int i = 0; i < customers.length; i++) {
-			customers[i] = new Customer("Customer" + String.valueOf(i));
-		}
+		Customer customer1 = new Customer("Boston");
+		Customer customer2 = new Customer("Jack");
 		
-		Movie movie1 = new Movie("Test1", Movie.CHILDENS);
-		Movie movie2 = new Movie("Test2", Movie.NEW_RELEASE);
-		Movie movie3 = new Movie("Test3", Movie.REGULAR);
-		Movie movie4 = new Movie("Test4", Movie.NEW_RELEASE);
-		Movie movie5 = new Movie("Test5", Movie.REGULAR);
+		Movie movie1 = new Movie("Movie1", Movie.CHILDENS);
+		Movie movie2 = new Movie("Movie2", Movie.NEW_RELEASE);
+		Movie movie3 = new Movie("Movie3", Movie.REGULAR);
+		Movie movie4 = new Movie("Movie4", Movie.NEW_RELEASE);
+		Movie movie5 = new Movie("Movie5", Movie.REGULAR);
 		
-		customers[0].addRental(new Rental(movie1, 5));
-		customers[1].addRental(new Rental(movie2, 3));
-		customers[2].addRental(new Rental(movie3, 2));
-		customers[3].addRental(new Rental(movie4, 2));
-		customers[4].addRental(new Rental(movie5, 1));
+		customer1.addRental(new Rental(movie1, 10));
+		customer1.addRental(new Rental(movie2, 8));
+		customer1.addRental(new Rental(movie3, 5));
+		customer2.addRental(new Rental(movie4, 4));
+		customer2.addRental(new Rental(movie5, 7));
 		
-		for (Customer customer : customers) {
-			System.out.println(customer.statement());
-		}
+		System.out.println(customer1.statement());
+		System.out.println(customer2.statement());
 	}
-
 }
