@@ -9,11 +9,20 @@ import java.util.Vector;
 public class First {
     String _name;
     private Vector _orders = new Vector();
+    private int _numberOfLateDeliveries;
 
     public void printOwing() {
         printBanner();
         double outstanding = getOutstanding();
         printDetails(outstanding);
+    }
+
+    int getRating() {
+        return (moreThanFiveLateDeliveries()) ? 2 : 1;
+    }
+
+    boolean moreThanFiveLateDeliveries() {
+        return _numberOfLateDeliveries > 5;
     }
 
     public void printOwingNew(double amount) {
