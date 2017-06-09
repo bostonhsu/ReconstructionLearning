@@ -11,17 +11,19 @@ public class First {
     private Vector _orders = new Vector();
 
     public void printOwing() {
-        Enumeration e = _orders.elements();
-        double outstanding = 0.0;
-
         printBanner();
+        double outstanding = getOutstanding();
+        printDetails(outstanding);
+    }
 
+    private double getOutstanding() {
+        Enumeration e = _orders.elements();
+        double result = 0.0;
         while (e.hasMoreElements()) {
             Order each = (Order)e.nextElement();
-            outstanding += each.getAmount();
+            result += each.getAmount();
         }
-
-        printDetails(outstanding);
+        return result;
     }
 
     private void printDetails(double outstanding) {
