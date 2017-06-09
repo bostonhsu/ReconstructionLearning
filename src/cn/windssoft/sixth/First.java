@@ -21,6 +21,11 @@ public class First {
     final boolean isIEBrowser = browser.toUpperCase().contains("IE");
     final boolean wasResized = resize > 0;
 
+    double price() {
+        return _quantity * _itemPrice - Math.max(0, _quantity - 500) * _itemPrice * 0.05 +
+                Math.min(_quantity * _itemPrice * 0.1, 100.0);
+    }
+    
     double getPrice() {
         return basePrice() * discountFactor();
     }
