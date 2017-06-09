@@ -18,11 +18,7 @@ public class First {
     }
 
     int getRating() {
-        return (moreThanFiveLateDeliveries()) ? 2 : 1;
-    }
-
-    boolean moreThanFiveLateDeliveries() {
-        return _numberOfLateDeliveries > 5;
+        return (_numberOfLateDeliveries > 5) ? 2 : 1;
     }
 
     public void printOwingNew(double amount) {
