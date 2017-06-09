@@ -12,8 +12,6 @@ public class FileReaderTester extends TestCase {
 
     @Override
     protected void setUp() throws Exception {
-        try {
-            _input = new FileReader("data.txt");
-        }
+
     }
 }
