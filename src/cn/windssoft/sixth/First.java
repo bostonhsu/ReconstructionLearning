@@ -15,13 +15,16 @@ public class First {
     private int _itemPrice;
 
     double getPrice() {
-        final double discountFactor;
-        if (basePrice() > 1000) {
-            discountFactor = 0.95;
-        } else {
-            discountFactor = 0.98;
-        }
+        final double discountFactor = discountFactor();
         return basePrice() * discountFactor;
+    }
+
+    private double discountFactor() {
+        if (basePrice() > 1000) {
+            return 0.95;
+        } else {
+            return 0.98;
+        }
     }
 
     private int basePrice() {
