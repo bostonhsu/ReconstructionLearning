@@ -13,9 +13,25 @@ public class First {
     private int _numberOfLateDeliveries;
     private int _quantity;
     private int _itemPrice;
+    private String platform;
+    private String browser;
+    private int resize;
 
     double getPrice() {
         return basePrice() * discountFactor();
+    }
+
+    private void f65() {
+        if ((platform.toUpperCase().indexOf("MAC") > -1) &&
+                (browser.toUpperCase().indexOf("IE") > -1) &&
+                wasInitialized() && resize > 0) {
+            // do something
+        }
+    }
+
+    private boolean wasInitialized() {
+        boolean result = false;
+        return result;
     }
 
     private double discountFactor() {
