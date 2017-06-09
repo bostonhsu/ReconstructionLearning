@@ -17,14 +17,16 @@ public class First {
     private String browser;
     private int resize;
 
+    final boolean isMacOs = platform.toUpperCase().contains("MAC");
+    final boolean isIEBrowser = browser.toUpperCase().contains("IE");
+    final boolean wasResized = resize > 0;
+
     double getPrice() {
         return basePrice() * discountFactor();
     }
 
     private void f65() {
-        if ((platform.toUpperCase().indexOf("MAC") > -1) &&
-                (browser.toUpperCase().indexOf("IE") > -1) &&
-                wasInitialized() && resize > 0) {
+        if (isMacOs && isIEBrowser && wasInitialized() && wasResized) {
             // do something
         }
     }
