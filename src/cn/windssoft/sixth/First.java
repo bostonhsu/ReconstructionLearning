@@ -23,8 +23,8 @@ public class First {
 
     double price() {
         final int basePrice = _quantity * _itemPrice;
-        return basePrice - Math.max(0, _quantity - 500) * _itemPrice * 0.05 +
-                Math.min(basePrice * 0.1, 100.0);
+        double quantityDiscount = Math.max(0, _quantity - 500) * _itemPrice * 0.05;
+        return basePrice - quantityDiscount + Math.min(basePrice * 0.1, 100.0);
     }
 
     double getPrice() {
