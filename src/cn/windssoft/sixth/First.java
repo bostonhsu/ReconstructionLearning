@@ -10,7 +10,7 @@ public class First {
     String _name;
     private Vector _orders = new Vector();
 
-    public void printOwing(double amount) {
+    public void printOwing() {
         Enumeration e = _orders.elements();
         double outstanding = 0.0;
 
@@ -21,8 +21,12 @@ public class First {
             outstanding += each.getAmount();
         }
 
+        printDetails(outstanding);
+    }
+
+    private void printDetails(double outstanding) {
         System.out.println("name:" + _name);
-        System.out.println("amount" + amount);
+        System.out.println("amount" + outstanding);
     }
 
     private void printBanner() {
@@ -31,8 +35,5 @@ public class First {
         System.out.println("*************************");
     }
 
-    private void printDetails(double amount) {
-        System.out.println("name:" + _name);
-        System.out.println("amount" + amount);
-    }
+
 }
