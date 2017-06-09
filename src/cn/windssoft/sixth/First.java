@@ -15,8 +15,7 @@ public class First {
     private int _itemPrice;
 
     double getPrice() {
-        final double discountFactor = discountFactor();
-        return basePrice() * discountFactor;
+        return basePrice() * discountFactor();
     }
 
     private double discountFactor() {
