@@ -10,17 +10,11 @@ public class First {
     String _name;
     private Vector _orders = new Vector();
 
-    private void printBanner(){
-        System.out.println("Banner");
-    }
-
     public void printOwing(double amount) {
         Enumeration e = _orders.elements();
         double outstanding = 0.0;
 
-        System.out.println("*************************");
-        System.out.println("****** Customer Owes*****");
-        System.out.println("*************************");
+        printBanner();
 
         while (e.hasMoreElements()) {
             Order each = (Order)e.nextElement();
@@ -29,6 +23,12 @@ public class First {
 
         System.out.println("name:" + _name);
         System.out.println("amount" + amount);
+    }
+
+    private void printBanner() {
+        System.out.println("*************************");
+        System.out.println("****** Customer Owes*****");
+        System.out.println("*************************");
     }
 
     private void printDetails(double amount) {

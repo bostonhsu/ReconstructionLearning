@@ -16,12 +16,10 @@
       <file leaf-file-name="First.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/sixth/First.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="266">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +52,8 @@
         <option value="$PROJECT_DIR$/src/cn/windssoft/test2/FileReaderTester.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/junit/Math.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/junit/MathTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/windssoft/sixth/First.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/sixth/Order.java" />
+        <option value="$PROJECT_DIR$/src/cn/windssoft/sixth/First.java" />
       </list>
     </option>
   </component>
@@ -683,12 +681,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/sixth/First.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="266">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
           </folding>
         </state>
       </provider>
