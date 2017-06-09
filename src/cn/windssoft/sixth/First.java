@@ -32,7 +32,7 @@ public class First {
         System.out.println("name:" + _name);
         System.out.println("amount" + amount);
     }
-    
+
     public void printOwing(double previousAmount) {
         printBanner();
         double outstanding = getOutstandingNew(previousAmount * 1.2);
