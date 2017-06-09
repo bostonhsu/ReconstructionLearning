@@ -28,6 +28,22 @@ public class First {
         return basePrice - quantityDiscount + shipping;
     }
 
+    double priceWithFunction() {
+        return basePrice1() - quantityDiscount() + shipping();
+    }
+
+    private double shipping() {
+        return Math.min(basePrice1() * 0.1, 100.0);
+    }
+
+    private double quantityDiscount() {
+        return Math.max(0, _quantity - 500) * _itemPrice * 0.05;
+    }
+
+    private int basePrice1() {
+        return _quantity * _itemPrice;
+    }
+
     double getPrice() {
         return basePrice() * discountFactor();
     }
