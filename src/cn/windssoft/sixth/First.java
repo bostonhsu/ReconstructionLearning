@@ -16,6 +16,23 @@ public class First {
         printDetails(outstanding);
     }
 
+    public void printOwing(double previousAmount) {
+        double outstanding = previousAmount * 1.2;
+        printBanner();
+        outstanding = getOutstandingNew(outstanding);
+        printDetails(outstanding);
+    }
+
+    private double getOutstandingNew(double initial) {
+        double result = initial;
+        Enumeration e = _orders.elements();
+        while (e.hasMoreElements()) {
+            Order each = (Order)e.nextElement();
+            result += each.getAmount();
+        }
+        return result;
+    }
+
     private double getOutstanding() {
         Enumeration e = _orders.elements();
         double result = 0.0;
