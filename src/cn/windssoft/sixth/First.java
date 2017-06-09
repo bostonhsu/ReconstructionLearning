@@ -17,9 +17,8 @@ public class First {
     }
 
     public void printOwing(double previousAmount) {
-        double outstanding = previousAmount * 1.2;
         printBanner();
-        outstanding = getOutstandingNew(outstanding);
+        double outstanding = getOutstandingNew(previousAmount * 1.2);
         printDetails(outstanding);
     }
 
