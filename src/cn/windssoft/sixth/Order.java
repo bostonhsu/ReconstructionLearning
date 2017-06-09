@@ -15,4 +15,8 @@ public class Order {
     public double getAmount() {
         return amount;
     }
+
+    public double basePrice() {
+        return amount;
+    }
 }

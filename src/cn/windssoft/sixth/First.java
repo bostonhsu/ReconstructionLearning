@@ -8,13 +8,31 @@ import java.util.Vector;
  */
 public class First {
     String _name;
+    Order anOrder;
     private Vector _orders = new Vector();
     private int _numberOfLateDeliveries;
+    private int _quantity;
+    private int _itemPrice;
+
+    double getPrice() {
+        int basePrice = _quantity * _itemPrice;
+        double discountFactor;
+        if (basePrice > 1000) {
+            discountFactor = 0.95;
+        } else {
+            discountFactor = 0.98;
+        }
+        return basePrice * discountFactor;
+    }
 
     public void printOwing() {
         printBanner();
         double outstanding = getOutstanding();
         printDetails(outstanding);
+    }
+
+    boolean test() {
+        return (anOrder.basePrice() > 1000);
     }
 
     int getRating() {
