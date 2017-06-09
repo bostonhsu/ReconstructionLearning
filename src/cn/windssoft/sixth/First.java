@@ -15,15 +15,17 @@ public class First {
     private int _itemPrice;
 
     double getPrice() {
-        final int basePrice = _quantity * _itemPrice;
         final double discountFactor;
-        if (basePrice > 1000) {
+        if (basePrice() > 1000) {
             discountFactor = 0.95;
         } else {
             discountFactor = 0.98;
         }
-        basePrice = 10;
-        return basePrice * discountFactor;
+        return basePrice() * discountFactor;
+    }
+
+    private int basePrice() {
+        return _quantity * _itemPrice;
     }
 
     public void printOwing() {
