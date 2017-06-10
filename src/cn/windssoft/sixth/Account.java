@@ -27,5 +27,11 @@ class Gamma {
     private int importantValue1;
     private int importantValue2;
     private int importantValue3;
-    
+
+    public Gamma(Account account, int inputValue, int quantity, int yearToDate) {
+        _account = account;
+        this.inputValue = inputValue;
+        this.quantity = quantity;
+        this.yearToDate = yearToDate;
+    }
 }
