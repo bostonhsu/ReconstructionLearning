@@ -11,7 +11,7 @@ public class Second {
     private double _mass;
     private int _delay;
 
-    int discount(int inputVal, int quantity, int yearToDate) {
+    int discount(final int inputVal, final int quantity, final int yearToDate) {
         int result = inputVal;
         if (inputVal > 50) result -= 2;
         if (quantity > 100) result -= 1;
