@@ -39,7 +39,7 @@ public class Second {
         System.out.println("=>" + arg.toString());
     }
 
-    private static void nextDateUpdate(Date arg) {
+    private static void nextDateUpdate(final Date arg) {
         arg.setDate(arg.getDate() + 1);
         System.out.println("->" + arg.toString());
     }
