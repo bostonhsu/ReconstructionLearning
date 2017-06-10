@@ -11,6 +11,14 @@ public class Second {
     private double _mass;
     private int _delay;
 
+    int discount(int inputVal, int quantity, int yearToDate) {
+        int result = 0;
+        if (inputVal > 50) {
+            inputVal -= 2;
+        }
+        return result;
+    }
+
     private void test() {
         final double perimeter = 2 * (_height + _width);
         System.out.println(perimeter);
