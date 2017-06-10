@@ -12,9 +12,9 @@ public class Second {
     private int _delay;
 
     int discount(int inputVal, int quantity, int yearToDate) {
-        int result = 0;
+        int result = inputVal;
         if (inputVal > 50) {
-            inputVal -= 2;
+            result -= 2;
         }
         return result;
     }
