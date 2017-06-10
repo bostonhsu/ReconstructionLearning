@@ -18,3 +18,14 @@ public class Account {
         return 0;
     }
 }
+
+class Gamma {
+    private final Account _account;
+    private int inputValue;
+    private int quantity;
+    private int yearToDate;
+    private int importantValue1;
+    private int importantValue2;
+    private int importantValue3;
+    
+}
