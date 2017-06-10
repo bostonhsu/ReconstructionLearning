@@ -1,5 +1,7 @@
 package cn.windssoft.sixth;
 
+import java.util.Date;
+
 /**
  * Created by Administrator on 2017/6/10.
  */
@@ -10,6 +12,37 @@ public class Second {
     private double secondaryForce;
     private double _mass;
     private int _delay;
+
+    public static void main(String[] args) {
+        Date d3 = new Date("1 Apr 1998");
+        System.out.println(d3);
+
+        System.out.println(d3.getYear());
+        System.out.println(d3.getMonth());
+        System.out.println(d3.getDay());
+
+        Date d1 = new Date("1 Apr 1998");
+        System.out.println(d1);
+
+        nextDateUpdate(d1);
+        System.out.println(d1);
+
+        Date d2 = new Date("1 Apr 1998");
+        System.out.println(d2);
+
+        nextDateReplace(d2);
+        System.out.println(d2);
+    }
+
+    private static void nextDateReplace(Date arg) {
+        arg = new Date(arg.getYear(), arg.getMonth(), arg.getDay());
+        System.out.println("=>" + arg.toString());
+    }
+
+    private static void nextDateUpdate(Date arg) {
+        arg.setDate(arg.getDate() + 1);
+        System.out.println("->" + arg.toString());
+    }
 
     int discount(final int inputVal, final int quantity, final int yearToDate) {
         int result = inputVal;
