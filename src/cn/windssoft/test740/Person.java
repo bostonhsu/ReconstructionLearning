@@ -16,7 +16,7 @@ public class Person {
     }
 
     String getNumber() {
-        _officeTelephone.getNumber();
+        return _officeTelephone.getNumber();
     }
 
     void setNumber(String arg) {
