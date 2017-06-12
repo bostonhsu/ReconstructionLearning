@@ -3,6 +3,7 @@ package cn.windssoft.test750;
 /**
  * Created by Administrator on 2017/6/12.
  */
+
 public class Person {
     Department _department;
     public Department getDepartment() {
