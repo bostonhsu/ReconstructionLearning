@@ -5,22 +5,23 @@ package cn.windssoft.test740;
  */
 public class Person {
     private String _name;
-    private TelephoneNumber _officeTelephone = new TelephoneNumber();
+    private String _areaCode;
+    private String _number;
 
     String getAreaCode() {
-        return _officeTelephone.getAreaCode();
+        return _areaCode;
     }
 
     void setAreaCode(String arg) {
-        _officeTelephone.setAreaCode(arg);
+        _areaCode = arg;
     }
 
     String getNumber() {
-        return _officeTelephone.getNumber();
+        return _number;
     }
 
     void setNumber(String arg) {
-        _officeTelephone.setNumber(arg);
+        _number = arg;
     }
 
     public String getName() {
@@ -28,10 +29,7 @@ public class Person {
     }
 
     public String getTelephoneNumber() {
-        return _officeTelephone.getTelephoneNumber();
+        return ("(" + getAreaCode() + ") " + getNumber());
     }
 
-    TelephoneNumber getOfficeTelephone() {
-        return _officeTelephone;
-    }
 }
