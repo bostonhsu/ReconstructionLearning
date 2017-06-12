@@ -19,21 +19,21 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test730/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="399">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
                 <element signature="e#441#442#0" expanded="true" />
                 <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,9 +42,14 @@
       <file leaf-file-name="TelephoneNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test730/TelephoneNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="285">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/cn/windssoft/test72/Account.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test721/AccountType.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test721/Account.java" />
+        <option value="$PROJECT_DIR$/src/cn/windssoft/test730/TelephoneNumber.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test730/Person.java" />
       </list>
     </option>
@@ -884,29 +890,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test730/TelephoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test730/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="399">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
             <element signature="e#441#442#0" expanded="true" />
             <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
           </folding>
         </state>
       </provider>
