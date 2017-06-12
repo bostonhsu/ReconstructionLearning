@@ -20,11 +20,11 @@ public class IntervalWindow extends Frame implements Observer{
     }
 
     String getEnd() {
-        return _endField.getText();
+        return _subject.getEnd();
     }
 
     void setEnd(String arg) {
-        _endField.setText(arg);
+        _subject.setEnd(arg);
     }
 
 
