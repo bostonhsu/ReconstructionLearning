@@ -9,7 +9,11 @@ public class Account {
 
     double bankCharge() {
         double result = 4.5;
-        if (_daysOverdrawn > 0) result += _type.overdraftCharge(_daysOverdrawn);
+        if (_daysOverdrawn > 0) result += _type.overdraftCharge(this);
         return result;
+    }
+
+    int getDaysOverdrawn() {
+        return _daysOverdrawn;
     }
 }
