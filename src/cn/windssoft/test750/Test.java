@@ -26,7 +26,7 @@ public class Test {
     }
 
     private static Date nextDay(Date arg) {
-        
+        // foreign method, should be on date
         return new Date(arg.getYear(), arg.getMonth(), arg.getDay() + 1);
     }
 }
