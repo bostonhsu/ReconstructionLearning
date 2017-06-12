@@ -7,10 +7,6 @@ package cn.windssoft.test750;
 public class Person {
     Department _department;
 
-    public Person getManager() {
-        return _department.getManager();
-    }
-
     public void setDepartment(Department arg) {
         _department = arg;
     }
@@ -18,5 +14,9 @@ public class Person {
     @Override
     public String toString() {
         return getDepartment() + this.getClass().getName().toString();
+    }
+
+    public Department getDepartment() {
+        return _department;
     }
 }
