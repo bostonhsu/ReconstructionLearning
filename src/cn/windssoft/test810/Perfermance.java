@@ -5,4 +5,12 @@ package cn.windssoft.test810;
  */
 public class Perfermance {
     public String[] _data = new String[3];
+
+    public String getName() {
+        return _data[0];
+    }
+
+    public void setName(String name) {
+        _data[0] = name;
+    }
 }
