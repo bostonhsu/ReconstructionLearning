@@ -6,7 +6,7 @@ package cn.windssoft.test810;
 public class Customer {
     private final String _name;
 
-    public Customer(String name) {
+    private Customer(String name) {
         _name = name;
     }
 
