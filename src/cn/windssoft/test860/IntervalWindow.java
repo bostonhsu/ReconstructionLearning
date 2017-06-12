@@ -30,7 +30,7 @@ public class IntervalWindow extends Frame implements Observer{
 
     @Override
     public void update(Observable o, Object arg) {
-
+        _endField.setText(_subject.getEnd());
     }
 
     class SymFocus extends java.awt.event.FocusAdapter {
