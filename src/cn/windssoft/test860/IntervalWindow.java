@@ -51,8 +51,8 @@ public class IntervalWindow extends Frame implements Observer{
         }
 
         void EndField_FocusLost(java.awt.event.FocusEvent event) {
-            if (isNotInteger(_endField.getText()))
-                _endField.setText("0");
+            if (isNotInteger(getEnd()))
+                setEnd("0");
             calculateLength();
         }
 
@@ -65,7 +65,7 @@ public class IntervalWindow extends Frame implements Observer{
         void calculateLength() {
             try {
                 int start = Integer.parseInt(_startField.getText());
-                int end = Integer.parseInt(_endField.getText());
+                int end = Integer.parseInt(getEnd());
                 int length = end - start;
                 _lengthField.setText(String.valueOf(length));
             } catch (NumberFormatException e) {
@@ -78,7 +78,7 @@ public class IntervalWindow extends Frame implements Observer{
                 int start = Integer.parseInt(_startField.getText());
                 int length = Integer.parseInt(_lengthField.getText());
                 int end = start + length;
-                _endField.setText(String.valueOf(end));
+                setEnd(String.valueOf(end));
             } catch (NumberFormatException e) {
                 throw new RuntimeException("Unexpected Number Format Error");
             }
