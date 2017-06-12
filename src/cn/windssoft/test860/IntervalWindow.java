@@ -10,6 +10,12 @@ public class IntervalWindow extends Frame {
     java.awt.TextField _endField;
     java.awt.TextField _lengthField;
     private Interval _subject;
+
+    public IntervalWindow() {
+        _subject = new Interval();
+        _subject.addObserver(this);
+        update(_subject, null);
+    }
     
     class SymFocus extends java.awt.event.FocusAdapter {
         public void focusLost(java.awt.event.FocusEvent event) {
