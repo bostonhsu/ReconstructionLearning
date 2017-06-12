@@ -7,7 +7,7 @@ public class Currency {
 
     private String _code;
 
-    public Currency(String code) {
+    private Currency(String code) {
         _code = code;
     }
 
@@ -20,4 +20,9 @@ public class Currency {
         Currency other = (Currency) arg;
         return (_code.equals(other._code));
     }
+
+    public int hashCode() {
+        return _code.hashCode();
+    }
 }
+
