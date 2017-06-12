@@ -15,6 +15,6 @@ public class Order {
     }
 
     public void setCustomer(String customerName) {
-        _customer = new Customer(customerName);
+        _customer = Customer.getNamed(customerName);
     }
 }
