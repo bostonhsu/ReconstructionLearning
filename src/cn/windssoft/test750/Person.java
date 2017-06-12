@@ -9,6 +9,10 @@ public class Person {
         return _department;
     }
 
+    public Person getManager() {
+        return _department.getManager();
+    }
+    
     public void setDepartment(Department arg) {
         _department = arg;
     }
