@@ -20,7 +20,7 @@ public class Customer {
     }
 
     public static Customer create(String name) {
-        return new Customer(name);
+        return (Customer) _instances.get(name);
     }
 
     static void loadCustomers() {
