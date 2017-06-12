@@ -33,4 +33,12 @@ public class ArrayToClass {
     String name = row.getName();
     int wins = Integer.parseInt(row._data[1]);
      */
+
+    // new new new usage
+    /*
+    row.setName("Liverpool");
+    row.setWins("15");
+    String name = row.getName();
+    int wins = row.getWins();
+     */
 }

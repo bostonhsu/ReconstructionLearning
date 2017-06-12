@@ -16,17 +16,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayToClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArrayToClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test810/ArrayToClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="437">
+              <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Perfermance.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Perfermance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test810/Perfermance.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -99,8 +99,8 @@
         <option value="$PROJECT_DIR$/src/cn/windssoft/test810/Customer.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test810/Order.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test810/Currency.java" />
-        <option value="$PROJECT_DIR$/src/cn/windssoft/test810/ArrayToClass.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test810/Perfermance.java" />
+        <option value="$PROJECT_DIR$/src/cn/windssoft/test810/ArrayToClass.java" />
       </list>
     </option>
   </component>
@@ -1149,14 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test810/ArrayToClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test810/Perfermance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1171,6 +1163,14 @@
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#430#431#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test810/ArrayToClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
