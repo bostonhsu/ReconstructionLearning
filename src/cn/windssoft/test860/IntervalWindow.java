@@ -51,6 +51,7 @@ public class IntervalWindow extends Frame implements Observer{
         }
 
         void EndField_FocusLost(java.awt.event.FocusEvent event) {
+            setEnd(_endField.getText());
             if (isNotInteger(getEnd()))
                 setEnd("0");
             calculateLength();
