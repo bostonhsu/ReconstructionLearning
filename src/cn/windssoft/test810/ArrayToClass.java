@@ -25,4 +25,12 @@ public class ArrayToClass {
     String name = row._data[0];
     int wins = Integer.parseInt(row._data[1]);
      */
+
+    // new new usage
+    /*
+    row.setName("Liverpool");
+    row._data[1] = "15";
+    String name = row.getName();
+    int wins = Integer.parseInt(row._data[1]);
+     */
 }
