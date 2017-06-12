@@ -4,17 +4,17 @@ package cn.windssoft.test810;
  * Created by Administrator on 2017/6/12.
  */
 public class Order {
-    private String _customer;
+    private Customer _customer;
 
     public Order(String customer) {
-        _customer = customer;
+        _customer = new Customer(customer);
     }
 
     public String getCustomer() {
-        return _customer;
+        return _customer.getName();
     }
 
     public void setCustomer(String arg) {
-        _customer = arg;
+        _customer = new Customer(arg);
     }
 }
