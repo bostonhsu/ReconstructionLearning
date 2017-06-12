@@ -19,6 +19,14 @@ public class IntervalWindow extends Frame implements Observer{
         update(_subject, null);
     }
 
+    String getLength() {
+        return _subject.getLength();
+    }
+
+    void setLength(String arg) {
+        _subject.setLength(arg);
+    }
+
     String getEnd() {
         return _subject.getEnd();
     }
@@ -39,6 +47,7 @@ public class IntervalWindow extends Frame implements Observer{
     public void update(Observable o, Object arg) {
         _endField.setText(_subject.getEnd());
         _startField.setText(_subject.getStart());
+        _lengthField.setText(_subject.getLength());
     }
 
     class SymFocus extends java.awt.event.FocusAdapter {
@@ -66,8 +75,8 @@ public class IntervalWindow extends Frame implements Observer{
         }
 
         void LengthField_FocusLost(java.awt.event.FocusEvent event) {
-            if (isNotInteger(_lengthField.getText()))
-                _lengthField.setText("0");
+            if (isNotInteger(getLength()))
+                setLength("0");
             calculateEnd();
         }
 
@@ -76,7 +85,7 @@ public class IntervalWindow extends Frame implements Observer{
                 int start = Integer.parseInt(getStart());
                 int end = Integer.parseInt(getEnd());
                 int length = end - start;
-                _lengthField.setText(String.valueOf(length));
+                setLength(String.valueOf(length));
             } catch (NumberFormatException e) {
                 throw new RuntimeException("Unexpected Number Format Error");
             }
@@ -85,7 +94,7 @@ public class IntervalWindow extends Frame implements Observer{
         void calculateEnd() {
             try {
                 int start = Integer.parseInt(getStart());
-                int length = Integer.parseInt(_lengthField.getText());
+                int length = Integer.parseInt(getLength());
                 int end = start + length;
                 setEnd(String.valueOf(end));
             } catch (NumberFormatException e) {

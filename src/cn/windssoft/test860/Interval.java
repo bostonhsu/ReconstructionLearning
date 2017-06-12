@@ -8,6 +8,17 @@ import java.util.Observable;
 public class Interval extends Observable {
     private String _end = "0";
     private String _start = "0";
+    private String _length = "0";
+
+    String getLength() {
+        return _length;
+    }
+
+    void setLength(String arg) {
+        _length = arg;
+        setChanged();
+        notifyObservers();
+    }
 
     String getStart() {
         return _start;
