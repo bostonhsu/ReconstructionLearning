@@ -9,7 +9,8 @@ public class IntervalWindow extends Frame {
     java.awt.TextField _startField;
     java.awt.TextField _endField;
     java.awt.TextField _lengthField;
-
+    private Interval _subject;
+    
     class SymFocus extends java.awt.event.FocusAdapter {
         public void focusLost(java.awt.event.FocusEvent event) {
             Object object = event.getSource();
