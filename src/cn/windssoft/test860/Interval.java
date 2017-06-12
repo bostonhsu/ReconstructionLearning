@@ -7,7 +7,18 @@ import java.util.Observable;
  */
 public class Interval extends Observable {
     private String _end = "0";
+    private String _start = "0";
 
+    String getStart() {
+        return _start;
+    }
+
+    void setStart(String arg) {
+        _start = arg;
+        setChanged();
+        notifyObservers();
+    }
+    
     String getEnd() {
         return  _end;
     }
