@@ -6,9 +6,6 @@ package cn.windssoft.test750;
 
 public class Person {
     Department _department;
-    public Department getDepartment() {
-        return _department;
-    }
 
     public Person getManager() {
         return _department.getManager();
