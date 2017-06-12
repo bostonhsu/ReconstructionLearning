@@ -14,4 +14,10 @@ public class Currency {
     public String getCode() {
         return _code;
     }
+
+    public boolean equals(Object arg) {
+        if (!(arg instanceof Currency)) return false;
+        Currency other = (Currency) arg;
+        return (_code.equals(other._code));
+    }
 }
