@@ -1,11 +1,13 @@
 package cn.windssoft.test860;
 
 import java.awt.*;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * Created by BostonHsu on 2017/6/13.
  */
-public class IntervalWindow extends Frame {
+public class IntervalWindow extends Frame implements Observer{
     java.awt.TextField _startField;
     java.awt.TextField _endField;
     java.awt.TextField _lengthField;
@@ -16,7 +18,12 @@ public class IntervalWindow extends Frame {
         _subject.addObserver(this);
         update(_subject, null);
     }
-    
+
+    @Override
+    public void update(Observable o, Object arg) {
+
+    }
+
     class SymFocus extends java.awt.event.FocusAdapter {
         public void focusLost(java.awt.event.FocusEvent event) {
             Object object = event.getSource();

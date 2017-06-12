@@ -19,11 +19,12 @@
       <file leaf-file-name="IntervalWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test860/IntervalWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="399">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
-                <element signature="e#2394#2395#0" expanded="true" />
-                <element signature="e#2429#2430#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2538#2539#0" expanded="true" />
+                <element signature="e#2573#2574#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1005,11 +1006,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test860/IntervalWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="399">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
-            <element signature="e#2394#2395#0" expanded="true" />
-            <element signature="e#2429#2430#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
+            <element signature="e#2573#2574#0" expanded="true" />
           </folding>
         </state>
       </provider>
