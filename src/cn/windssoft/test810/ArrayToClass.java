@@ -15,4 +15,14 @@ public class ArrayToClass {
     int wins = Integer.parseInt(row[1]);
 
      */
+
+    // new usage
+    /*
+    Performance row = new Performence();
+    row._data[0] = "Liverpool";
+    row._data[1] = "15";
+
+    String name = row._data[0];
+    int wins = Integer.parseInt(row._data[1]);
+     */
 }
