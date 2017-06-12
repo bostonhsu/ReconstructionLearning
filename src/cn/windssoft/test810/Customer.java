@@ -14,4 +14,8 @@ public class Customer {
         return _name;
     }
 
+    public static Customer create(String name) {
+        return new Customer(name);
+    }
+
 }

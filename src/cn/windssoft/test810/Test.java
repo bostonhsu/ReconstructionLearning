@@ -84,7 +84,7 @@ public class Test {
         Iterator iterator = orders.iterator();
         while (iterator.hasNext()) {
             Order each = (Order) iterator.next();
-            if (each.getCustomer().equals(customer)) result++;
+            if (each.getCustomerName().equals(customer)) result++;
         }
         return result;
     }

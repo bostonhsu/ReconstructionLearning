@@ -6,15 +6,15 @@ package cn.windssoft.test810;
 public class Order {
     private Customer _customer;
 
-    public Order(String customer) {
-        _customer = new Customer(customer);
+    public Order(String customerName) {
+        _customer = new Customer(customerName);
     }
 
-    public String getCustomer() {
+    public String getCustomerName() {
         return _customer.getName();
     }
 
-    public void setCustomer(String arg) {
-        _customer = new Customer(arg);
+    public void setCustomer(String customerName) {
+        _customer = new Customer(customerName);
     }
 }
