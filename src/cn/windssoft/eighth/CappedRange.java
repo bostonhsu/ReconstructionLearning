@@ -14,7 +14,7 @@ public class CappedRange extends IntRange {
         return _cap;
     }
 
-    int getHigh() {
+    public int getHigh() {
         return Math.min(super.getHigh(), getCap());
     }
 }
