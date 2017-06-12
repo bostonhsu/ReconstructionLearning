@@ -6,6 +6,6 @@ package cn.windssoft.test740;
 public class Client {
     public void test() {
         Person martin = new Person();
-        martin.getOfficeTelephone().setAreaCode("781");
+        martin.setAreaCode("781");
     }
 }
