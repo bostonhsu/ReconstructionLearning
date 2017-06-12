@@ -4,21 +4,22 @@ package cn.windssoft.test810;
  * Created by Administrator on 2017/6/12.
  */
 public class Perfermance {
-    private String[] _data = new String[3];
+    private String _name;
+    private String _wins;
 
     public String getName() {
-        return _data[0];
+        return _name;
     }
 
     public void setName(String name) {
-        _data[0] = name;
+        _name = name;
     }
 
     public int getWins() {
-        return Integer.parseInt(_data[1]);
+        return Integer.parseInt(_wins);
     }
 
     public void setWins(String wins) {
-        _data[1] = wins;
+        _wins = wins;
     }
 }
