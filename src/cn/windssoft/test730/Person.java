@@ -7,7 +7,8 @@ public class Person {
     private String _name;
     private String _officeAreaCode;
     private String _officeNumber;
-
+    private TelephoneNumber _officeTelephone = new TelephoneNumber();
+    
     public String getName() {
         return _name;
     }
