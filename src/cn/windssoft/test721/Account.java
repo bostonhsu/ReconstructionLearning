@@ -8,14 +8,6 @@ public class Account {
     private double _interestRate;
 
     double interestForAmount_days(double amount, int days) {
-        return getInterestRate() * amount * days / 365;
-    }
-
-    private double getInterestRate() {
-        return _interestRate;
-    }
-
-    public void setInterestRate(double interestRate) {
-        _interestRate = interestRate;
+        return _interestRate * amount * days / 365;
     }
 }
