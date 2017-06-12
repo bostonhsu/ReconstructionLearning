@@ -18,7 +18,7 @@ public class Interval extends Observable {
         setChanged();
         notifyObservers();
     }
-    
+
     String getEnd() {
         return  _end;
     }

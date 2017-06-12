@@ -27,10 +27,18 @@ public class IntervalWindow extends Frame implements Observer{
         _subject.setEnd(arg);
     }
 
+    String getStart() {
+        return _subject.getStart();
+    }
+
+    void setStart(String arg) {
+        _subject.setStart(arg);
+    }
 
     @Override
     public void update(Observable o, Object arg) {
         _endField.setText(_subject.getEnd());
+        _startField.setText(_subject.getStart());
     }
 
     class SymFocus extends java.awt.event.FocusAdapter {
@@ -45,8 +53,8 @@ public class IntervalWindow extends Frame implements Observer{
         }
 
         void StartField_FocusLost(java.awt.event.FocusEvent event) {
-            if (isNotInteger(_startField.getText()))
-                _startField.setText("0");
+            if (isNotInteger(getStart()))
+                setStart("0");
             calculateLength();
         }
 
@@ -65,7 +73,7 @@ public class IntervalWindow extends Frame implements Observer{
 
         void calculateLength() {
             try {
-                int start = Integer.parseInt(_startField.getText());
+                int start = Integer.parseInt(getStart());
                 int end = Integer.parseInt(getEnd());
                 int length = end - start;
                 _lengthField.setText(String.valueOf(length));
@@ -76,7 +84,7 @@ public class IntervalWindow extends Frame implements Observer{
 
         void calculateEnd() {
             try {
-                int start = Integer.parseInt(_startField.getText());
+                int start = Integer.parseInt(getStart());
                 int length = Integer.parseInt(_lengthField.getText());
                 int end = start + length;
                 setEnd(String.valueOf(end));
