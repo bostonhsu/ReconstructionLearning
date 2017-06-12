@@ -19,7 +19,7 @@ public class Customer {
         return _name;
     }
 
-    public static Customer create(String name) {
+    public static Customer getNamed(String name) {
         return (Customer) _instances.get(name);
     }
 
