@@ -39,4 +39,30 @@ public class Interval extends Observable {
         setChanged();
         notifyObservers();
     }
+
+    void calculateLength() {
+        try {
+            int start = Integer.parseInt(getStart());
+            int end = Integer.parseInt(getEnd());
+            int length = end - start;
+            setLength(String.valueOf(length));
+        } catch (NumberFormatException e) {
+            throw new RuntimeException("Unexpected Number Format Error");
+        }
+    }
+
+    void calculateEnd() {
+        try {
+            int start = Integer.parseInt(getStart());
+            int length = Integer.parseInt(getLength());
+            int end = start + length;
+            setEnd(String.valueOf(end));
+        } catch (NumberFormatException e) {
+            throw new RuntimeException("Unexpected Number Format Error");
+        }
+    }
+
+    boolean isNotInteger(String arg) {
+        return true;
+    }
 }

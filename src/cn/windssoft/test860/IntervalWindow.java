@@ -62,48 +62,23 @@ public class IntervalWindow extends Frame implements Observer{
         }
 
         void StartField_FocusLost(java.awt.event.FocusEvent event) {
-            if (isNotInteger(getStart()))
+            if (_subject.isNotInteger(getStart()))
                 setStart("0");
-            calculateLength();
+            _subject.calculateLength();
         }
 
         void EndField_FocusLost(java.awt.event.FocusEvent event) {
             setEnd(_endField.getText());
-            if (isNotInteger(getEnd()))
+            if (_subject.isNotInteger(getEnd()))
                 setEnd("0");
-            calculateLength();
+            _subject.calculateLength();
         }
 
         void LengthField_FocusLost(java.awt.event.FocusEvent event) {
-            if (isNotInteger(getLength()))
+            if (_subject.isNotInteger(getLength()))
                 setLength("0");
-            calculateEnd();
+            _subject.calculateEnd();
         }
 
-        void calculateLength() {
-            try {
-                int start = Integer.parseInt(getStart());
-                int end = Integer.parseInt(getEnd());
-                int length = end - start;
-                setLength(String.valueOf(length));
-            } catch (NumberFormatException e) {
-                throw new RuntimeException("Unexpected Number Format Error");
-            }
-        }
-
-        void calculateEnd() {
-            try {
-                int start = Integer.parseInt(getStart());
-                int length = Integer.parseInt(getLength());
-                int end = start + length;
-                setEnd(String.valueOf(end));
-            } catch (NumberFormatException e) {
-                throw new RuntimeException("Unexpected Number Format Error");
-            }
-        }
-
-        boolean isNotInteger(String arg) {
-            return true;
-        }
     }
 }
