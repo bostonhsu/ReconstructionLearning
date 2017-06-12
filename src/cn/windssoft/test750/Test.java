@@ -10,7 +10,7 @@ public class Test {
         Department sale = new Department(boston);
         john.setDepartment(sale);
         Person manager;
-        manager = john.getDepartment().getManager();
+        manager = john.getManager();
         System.out.println(manager);
     }
 
