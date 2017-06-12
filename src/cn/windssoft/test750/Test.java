@@ -22,6 +22,11 @@ public class Test {
 
     public static void test1() {
         Date previousEnd = new Date();
-        Date newStart = new Date(previousEnd.getYear(), previousEnd.getMonth(), previousEnd.getDay() + 1);
+        Date newStart = nextDay(previousEnd);
+    }
+
+    private static Date nextDay(Date arg) {
+        
+        return new Date(arg.getYear(), arg.getMonth(), arg.getDay() + 1);
     }
 }
