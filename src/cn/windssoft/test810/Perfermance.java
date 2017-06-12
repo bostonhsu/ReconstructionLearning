@@ -13,4 +13,12 @@ public class Perfermance {
     public void setName(String name) {
         _data[0] = name;
     }
+
+    public int getWins() {
+        return Integer.parseInt(_data[1]);
+    }
+
+    public void setWins(String wins) {
+        _data[1] = wins;
+    }
 }
