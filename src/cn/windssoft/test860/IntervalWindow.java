@@ -19,6 +19,15 @@ public class IntervalWindow extends Frame implements Observer{
         update(_subject, null);
     }
 
+    String getEnd() {
+        return _endField.getText();
+    }
+
+    void setEnd(String arg) {
+        _endField.setText(arg);
+    }
+
+
     @Override
     public void update(Observable o, Object arg) {
 
