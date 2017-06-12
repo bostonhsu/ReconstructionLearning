@@ -5,6 +5,7 @@ package cn.windssoft.test730;
  */
 public class TelephoneNumber {
     private String _areaCode;
+    private String _number;
 
     String getAreaCode() {
         return _areaCode;
@@ -12,5 +13,17 @@ public class TelephoneNumber {
 
     void setAreaCode(String arg) {
         _areaCode = arg;
+    }
+
+    void setNumber(String arg) {
+        _number = arg;
+    }
+
+    String getNumber() {
+        return _number;
+    }
+
+    public String getTelephoneNumber() {
+        return ("(" + getAreaCode() + ") " + getNumber());
     }
 }

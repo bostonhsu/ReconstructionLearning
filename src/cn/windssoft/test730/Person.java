@@ -5,31 +5,18 @@ package cn.windssoft.test730;
  */
 public class Person {
     private String _name;
-    private String _officeAreaCode;
-    private String _officeNumber;
     private TelephoneNumber _officeTelephone = new TelephoneNumber();
 
     public String getName() {
         return _name;
     }
 
+    TelephoneNumber getOfficeTelephone() {
+        return _officeTelephone;
+    }
+
     public String getTelephoneNumber() {
-        return ("(" + getOfficeAreaCode() + ") " + _officeNumber);
+        return _officeTelephone.getTelephoneNumber();
     }
 
-    String getOfficeAreaCode() {
-        return _officeTelephone.getAreaCode();
-    }
-
-    void setOfficeAreaCode(String arg) {
-        _officeTelephone.setAreaCode(arg);
-    }
-
-    String getOfficeNumber() {
-        return _officeNumber;
-    }
-
-    void setOfficeNumber(String arg) {
-        _officeNumber = arg;
-    }
 }
