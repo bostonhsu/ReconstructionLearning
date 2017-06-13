@@ -7,6 +7,6 @@ public class Test {
     public void test() {
         Person thePerson = new Person(BloodGroup.A);
 
-        thePerson.getBloodGroupCode();
+        thePerson.getBloodGroup().getCode();
     }
 }
