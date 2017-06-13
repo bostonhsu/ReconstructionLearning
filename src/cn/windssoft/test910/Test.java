@@ -26,11 +26,9 @@ public class Test {
     private double _income;
 
     public double getAdjustedCapital() {
-        double result = 0.0;
-        if (_capital <= 0.0) return result;
-        if (_intRate <= 0.0 || _duration <= 0.0) return result;
-        result = (_income / _duration) * ADJ_FACTOR;
-        return result;
+        if (_capital <= 0.0) return 0.0;
+        if (_intRate <= 0.0 || _duration <= 0.0) return 0.0;
+        return (_income / _duration) * ADJ_FACTOR;
     }
 
     double getPayAmount() {
