@@ -67,11 +67,11 @@ public class Test {
             if (!found) {
                 if (people[i].equals("Don")) {
                     sendAlert();
-                    found = true;
+                    break;
                 }
                 if (people[i].equals("John")) {
                     sendAlert();
-                    found = true;
+                    break;
                 }
             }
         }
