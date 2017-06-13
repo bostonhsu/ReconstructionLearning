@@ -9,6 +9,11 @@ public abstract class Person {
 
     private final boolean _isMale;
     private final char _code;
+
+    protected Person(boolean isMale, char code) {
+        _isMale = isMale;
+        _code = code;
+    }
     
     static Person createMale() {
         return new Male();
