@@ -21,10 +21,10 @@ public class Person {
     }
 
     static Person createMale() {
-        return new Male();
+        return new Person(true, 'M');
     }
 
     static Person createFemale() {
-        return new Female();
+        return new Person(false, 'F');
     }
 }
