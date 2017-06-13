@@ -11,4 +11,8 @@ public class NullCustomer extends Customer {
     public String getName() {
         return "occupant";
     }
+
+    public void setPlan(BillingPlan plan) {
+        
+    }
 }
