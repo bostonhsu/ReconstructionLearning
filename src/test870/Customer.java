@@ -18,4 +18,7 @@ public class Customer {
         arg.setCustomer(this);
     }
 
+    public double getDiscount() {
+        return 0;
+    }
 }

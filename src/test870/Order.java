@@ -6,7 +6,7 @@ import java.util.Set;
  * Created by Administrator on 2017/6/13.
  */
 public class Order {
-    
+
     private Customer _customer;
 
     Customer getCustomers() {
@@ -23,8 +23,12 @@ public class Order {
         }
     }
 
-    void removeCustomer(Customer arg) {
+    double getDiscountPrice() {
+        return getGrossPrice() * (1 - _customer.getDiscount());
+    }
 
+    private double getGrossPrice() {
+        return 0.0;
     }
 
 }
