@@ -4,22 +4,22 @@ package cn.windssoft.test813;
  * Created by Administrator on 2017/6/13.
  */
 public class Person {
-    public static final int O = 0;
-    public static final int A = 1;
-    public static final int B = 2;
-    public static final int AB = 3;
+    public static final int O = BloodGroup.O.getCode();
+    public static final int A = BloodGroup.A.getCode();
+    public static final int B = BloodGroup.B.getCode();
+    public static final int AB = BloodGroup.AB.getCode();
 
-    private int _bloodGroup;
+    private BloodGroup _bloodGroup;
 
     public Person(int bloodGroup) {
-        _bloodGroup = bloodGroup;
+        _bloodGroup = BloodGroup.code(bloodGroup);
     }
 
     public void setBloodGroup(int arg) {
-        _bloodGroup = arg;
+        _bloodGroup = BloodGroup.code(arg);
     }
 
     public int getBloodGroup() {
-        return _bloodGroup;
+        return _bloodGroup.getCode();
     }
 }
