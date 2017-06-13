@@ -13,9 +13,8 @@ public class Test {
     public void test() {
         Person kent = new Person();
         Set s = new HashSet();
-        s.add(new Course("Smalltalk Programming", false));
-        s.add(new Course("Appreciating Single Malts", true));
-        kent.initializeCourses(s);
+        kent.addCourse(new Course("Smalltalk Programming", false));
+        kent.addCourse(new Course("Appreciating Single Malts", true));
         Assert.assertEquals(2, kent.getCourses().size());
         Course refact = new Course("Refacting", true);
         kent.getCourses().add(refact);

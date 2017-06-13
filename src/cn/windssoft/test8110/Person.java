@@ -26,10 +26,7 @@ public class Person {
 
     public void initializeCourses(Set arg) {
         Assert.assertTrue(_courses.isEmpty());
-        Iterator iterator = arg.iterator();
-        while (iterator.hasNext()) {
-            addCourse((Course)iterator.next());
-        }
+        _courses.addAll(arg);
     }
 
 }
