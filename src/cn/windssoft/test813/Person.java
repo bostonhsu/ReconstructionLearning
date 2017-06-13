@@ -22,4 +22,8 @@ public class Person {
     public int getBloodGroupCode() {
         return _bloodGroup.getCode();
     }
+
+    public BloodGroup getBloodGroup() {
+        return _bloodGroup;
+    }
 }

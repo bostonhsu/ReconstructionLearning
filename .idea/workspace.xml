@@ -19,8 +19,8 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test813/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="494">
+              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="e#401#402#0" expanded="true" />
                 <element signature="e#458#459#0" expanded="true" />
@@ -28,6 +28,8 @@
                 <element signature="e#550#551#0" expanded="true" />
                 <element signature="e#588#589#0" expanded="true" />
                 <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1091,8 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test813/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="494">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="e#401#402#0" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
@@ -1100,6 +1102,8 @@
             <element signature="e#550#551#0" expanded="true" />
             <element signature="e#588#589#0" expanded="true" />
             <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
           </folding>
         </state>
       </provider>
