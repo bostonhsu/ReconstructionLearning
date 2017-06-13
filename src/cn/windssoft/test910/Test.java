@@ -13,6 +13,9 @@ public class Test {
     private double _winterServiceCharge;
     private double _winterRate;
     private double _summerRate;
+    private int _seniority;
+    private int _monthsDisabled;
+    private boolean _isPartTime;
 
     public void test() {
         double charge = 0;
@@ -33,5 +36,13 @@ public class Test {
 
     private boolean notSummer(Date date) {
         return date.before(SUMMER_START) || date.after(SUMMER_END);
+    }
+
+    public int test2() {
+        if (_seniority < 2) return 0;
+        if (_monthsDisabled > 12) return 0;
+        if (_isPartTime) return 0;
+        // other compute code below
+        // ...
     }
 }
