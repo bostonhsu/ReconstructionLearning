@@ -19,8 +19,8 @@
       <file leaf-file-name="Order.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test870/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="399">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding>
                 <element signature="e#116#117#0" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
@@ -102,8 +102,8 @@
         <option value="$PROJECT_DIR$/src/cn/windssoft/test860/SymFocus.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test860/Interval.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test860/IntervalWindow.java" />
-        <option value="$PROJECT_DIR$/src/test870/Order.java" />
         <option value="$PROJECT_DIR$/src/test870/Customer.java" />
+        <option value="$PROJECT_DIR$/src/test870/Order.java" />
       </list>
     </option>
   </component>
@@ -1003,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test870/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="399">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding>
             <element signature="e#116#117#0" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
