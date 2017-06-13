@@ -8,6 +8,7 @@ import java.util.Date;
 public class Test {
     private static final Date SUMMER_START = new Date("1 Apr 1998");
     private static final Date SUMMER_END = new Date("1 Apr 1998");
+    private static final double ADJ_FACTOR = ;
 
     private Date date;
     private double _winterServiceCharge;
@@ -19,7 +20,21 @@ public class Test {
     private boolean _isDead;
     private boolean _isSeperate;
     private boolean _isRetired;
+    private double _capital;
+    private double _intRate;
+    private double _duration;
+    private double _income;
 
+    public double getAdjustedCapital() {
+        double result = 0.0;
+        if (_capital > 0.0) {
+            if (_intRate > 0.0 && _duration > 0.0) {
+                result = (_income / _duration) * ADJ_FACTOR;
+            }
+        }
+        return result;
+    }
+    
     double getPayAmount() {
         double result;
         if (_isDead) return deadAmount();
