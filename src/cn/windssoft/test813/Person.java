@@ -15,6 +15,14 @@ public class Person {
         _bloodGroup = BloodGroup.code(bloodGroup);
     }
 
+    public Person(BloodGroup bloodGroup) {
+        _bloodGroup = bloodGroup;
+    }
+
+    public void setBloodGroup(BloodGroup arg) {
+        _bloodGroup = arg;
+    }
+
     public void setBloodGroup(int arg) {
         _bloodGroup = BloodGroup.code(arg);
     }
