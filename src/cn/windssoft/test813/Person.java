@@ -19,7 +19,7 @@ public class Person {
         _bloodGroup = BloodGroup.code(arg);
     }
 
-    public int getBloodGroup() {
+    public int getBloodGroupCode() {
         return _bloodGroup.getCode();
     }
 }
