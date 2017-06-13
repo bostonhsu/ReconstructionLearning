@@ -72,11 +72,11 @@ public class Test {
             if (found.equals("")) {
                 if (people[i].equals("Don")) {
                     sendAlert();
-                    found = "Don";
+                    return "Don";
                 }
                 if (people[i].equals("John")) {
                     sendAlert();
-                    found = "John";
+                    return "John";
                 }
             }
         }
