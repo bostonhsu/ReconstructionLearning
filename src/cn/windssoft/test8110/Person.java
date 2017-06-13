@@ -24,7 +24,7 @@ public class Person {
         _courses.remove(arg);
     }
 
-    public void setCourses(Set arg) {
+    public void initializeCourses(Set arg) {
         Assert.assertTrue(_courses.isEmpty());
         Iterator iterator = arg.iterator();
         while (iterator.hasNext()) {

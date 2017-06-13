@@ -15,7 +15,7 @@ public class Test {
         Set s = new HashSet();
         s.add(new Course("Smalltalk Programming", false));
         s.add(new Course("Appreciating Single Malts", true));
-        kent.setCourses(s);
+        kent.initializeCourses(s);
         Assert.assertEquals(2, kent.getCourses().size());
         Course refact = new Course("Refacting", true);
         kent.getCourses().add(refact);
