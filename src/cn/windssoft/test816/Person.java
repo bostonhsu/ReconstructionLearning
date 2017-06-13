@@ -7,6 +7,9 @@ public abstract class Person {
     abstract boolean isMale();
     abstract char getCode();
 
+    private final boolean _isMale;
+    private final char _code;
+    
     static Person createMale() {
         return new Male();
     }
