@@ -17,8 +17,6 @@ public class Test {
         if (customer.isNull()) weeksDeliquent = 0;
         else weeksDeliquent = customer.getHistory().getWeeksDelinquetInLastYear();
 
-        if (! customer.isNull()) {
-            customer.setPlan(BillingPlan.special());
-        }
+        customer.setPlan(BillingPlan.special());
     }
 }

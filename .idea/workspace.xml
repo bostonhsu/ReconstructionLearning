@@ -65,8 +65,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test970/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="380">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -186,8 +186,8 @@
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/Site.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/NullCustomer.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/Customer.java" />
-        <option value="$PROJECT_DIR$/src/cn/windssoft/test970/Test.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/BillingPlan.java" />
+        <option value="$PROJECT_DIR$/src/cn/windssoft/test970/Test.java" />
       </list>
     </option>
   </component>
@@ -1285,8 +1285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test970/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="380">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
