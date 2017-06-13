@@ -13,11 +13,19 @@ public class Employee {
     private int _bonus;
 
     Employee(int type) {
-        _type = type;
+        setType(type);
+}
+
+    int getType() {
+        return _type;
+    }
+
+    void setType(int arg) {
+        _type = arg;
     }
 
     int payAmount() {
-        switch (_type) {
+        switch (getType()) {
             case ENGINEER:
                 return _monthSalary;
             case SALESMAN:
