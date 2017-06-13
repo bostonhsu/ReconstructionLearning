@@ -7,9 +7,7 @@ import java.lang.annotation.ElementType;
  */
 public class Employee {
     private EmployeeType _type;
-    static final int ENGINEER = 0;
-    static final int SALESMAN = 1;
-    static final int MANAGER = 2;
+
     private int _monthSalary;
     private int _commission;
     private int _bonus;
@@ -28,11 +26,11 @@ public class Employee {
 
     int payAmount() {
         switch (getType()) {
-            case ENGINEER:
+            case EmployeeType.ENGINEER:
                 return _monthSalary;
-            case SALESMAN:
+            case EmployeeType.SALESMAN:
                 return _monthSalary + _commission;
-            case MANAGER:
+            case EmployeeType.MANAGER:
                 return _monthSalary + _bonus;
             default:
                 throw new RuntimeException("Incorrect Employee");
