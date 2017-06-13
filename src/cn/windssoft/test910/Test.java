@@ -25,8 +25,7 @@ public class Test {
         if (_isDead) return deadAmount();
         if (_isSeperate) return seperateAmount();
         if (_isRetired) return retireAmount();
-        result = normalPayAmount();
-        return result;
+        return normalPayAmount();
     }
 
     private double normalPayAmount() {
