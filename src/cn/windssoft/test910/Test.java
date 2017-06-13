@@ -48,4 +48,21 @@ public class Test {
     private boolean isNotEligibleForDisability() {
         return (_seniority < 2) || (_monthsDisabled > 12) || (_isPartTime);
     }
+
+    public double test3() {
+        if (onVacation()) {
+            if (lengthOfService() > 10) {
+                return 1;
+            }
+        }
+        return 0.5;
+    }
+
+    private int lengthOfService() {
+        return 0;
+    }
+
+    private boolean onVacation() {
+        return false;
+    }
 }
