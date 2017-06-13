@@ -1,6 +1,9 @@
 package cn.windssoft.test8110;
 
+import junit.framework.Assert;
+
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 /**
@@ -13,16 +16,20 @@ public class Person {
         return _courses;
     }
 
-    public void setCourses(Set arg) {
-        _courses = arg;
-    }
-
     public void addCourse(Course arg) {
         _courses.add(arg);
     }
 
     public void removeCourse(Course arg) {
         _courses.remove(arg);
+    }
+
+    public void setCourses(Set arg) {
+        Assert.assertTrue(_courses.isEmpty());
+        Iterator iterator = arg.iterator();
+        while (iterator.hasNext()) {
+            addCourse((Course)iterator.next());
+        }
     }
 
 }
