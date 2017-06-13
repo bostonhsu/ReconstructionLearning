@@ -22,13 +22,11 @@ public class Test {
 
     double getPayAmount() {
         double result;
-        if (_isDead) result = deadAmount();
+        if (_isDead) return deadAmount();
+        if (_isSeperate) result = seperateAmount();
         else {
-            if (_isSeperate) result = seperateAmount();
-            else {
-                if (_isRetired) result = retireAmount();
-                else result = normalPayAmount();
-            };
+            if (_isRetired) result = retireAmount();
+            else result = normalPayAmount();
         }
         return result;
     }
