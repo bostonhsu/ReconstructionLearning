@@ -11,9 +11,7 @@ public class Test {
         if (customer.isNull()) plan = BillingPlan.basic();
         else plan = customer.getPlan();
 
-        String customerName;
-        if (customer.isNull()) customerName = "occupant";
-        else customerName = customer.getName();
+        String customerName = customer.getName();
 
         int weeksDeliquent;
         if (customer.isNull()) weeksDeliquent = 0;
