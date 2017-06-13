@@ -13,4 +13,8 @@ public class Customer {
         /** should only be used by Order when modifying the association */
         return _orders;
     }
+
+    void addOrder(Order arg) {
+        arg.setCustomer(this);
+    }
 }
