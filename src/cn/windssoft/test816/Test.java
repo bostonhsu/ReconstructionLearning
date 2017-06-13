@@ -5,6 +5,6 @@ package cn.windssoft.test816;
  */
 public class Test {
     public void test() {
-        Person kent = new Male();
+        Person kent = Person.createMale();
     }
 }
