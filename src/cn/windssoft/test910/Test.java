@@ -62,17 +62,14 @@ public class Test {
     }
 
     public void checkSecurity(String[] people) {
-        boolean found = false;
         for (int i = 0; i < people.length; i++) {
-            if (!found) {
-                if (people[i].equals("Don")) {
-                    sendAlert();
-                    break;
-                }
-                if (people[i].equals("John")) {
-                    sendAlert();
-                    break;
-                }
+            if (people[i].equals("Don")) {
+                sendAlert();
+                break;
+            }
+            if (people[i].equals("John")) {
+                sendAlert();
+                break;
             }
         }
     }
