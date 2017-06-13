@@ -8,15 +8,15 @@ public class Test {
         Site site = new Site();
         Customer customer = site.getCustomer();
         BillingPlan plan;
-        if (customer == null) plan = BillingPlan.basic();
+        if (customer.isNull()) plan = BillingPlan.basic();
         else plan = customer.getPlan();
 
         String customerName;
-        if (customer == null) customerName = "occupant";
+        if (customer.isNull()) customerName = "occupant";
         else customerName = customer.getName();
 
         int weeksDeliquent;
-        if (customer == null) weeksDeliquent = 0;
+        if (customer.isNull()) weeksDeliquent = 0;
         else weeksDeliquent = customer.getHistory().getWeeksDelinquetInLastYear();
     }
 }
