@@ -14,7 +14,7 @@ public abstract class Person {
         _isMale = isMale;
         _code = code;
     }
-    
+
     static Person createMale() {
         return new Male();
     }
