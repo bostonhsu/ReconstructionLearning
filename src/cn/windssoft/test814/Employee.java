@@ -3,7 +3,7 @@ package cn.windssoft.test814;
 /**
  * Created by Administrator on 2017/6/13.
  */
-public class Employee {
+public abstract class Employee {
     private int _type;
     static final int ENGINEER = 0;
     static final int SALESMAN = 1;
@@ -13,19 +13,18 @@ public class Employee {
         _type = type;
     }
 
-    int getType() {
-        return _type;
-    }
+    abstract int getType();
 
     static Employee create(int type) {
-        if (type == ENGINEER) {
-            return new Engineer();
-        } else if (type == SALESMAN) {
-            return new Salesman();
-        } else if (type == MANAGER) {
-            return new Manager();
-        } else {
-            return new Employee(type);
+        switch (type) {
+            case ENGINEER:
+                return new Engineer();
+            case SALESMAN:
+                return new Salesman();
+            case MANAGER:
+                return new Manager();
+            default:
+                throw new IllegalArgumentException("Incorrect type code value");
         }
     }
 }
