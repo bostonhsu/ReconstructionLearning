@@ -5,6 +5,6 @@ package cn.windssoft.test813;
  */
 public class Test {
     public void test() {
-        Person thePerson = new Person(Person.A);
+        Person thePerson = new Person(BloodGroup.A);
     }
 }

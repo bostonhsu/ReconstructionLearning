@@ -43,10 +43,10 @@
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test813/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               <folding>
                 <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1126,10 +1126,10 @@
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test813/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding>
             <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
           </folding>
         </state>
       </provider>
