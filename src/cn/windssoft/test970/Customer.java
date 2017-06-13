@@ -31,5 +31,9 @@ public class Customer implements Nullable {
     static Customer newNull() {
         return new NullCustomer();
     }
+
+    public void setPlan(BillingPlan plan) {
+        _plan = plan;
+    }
 }
 

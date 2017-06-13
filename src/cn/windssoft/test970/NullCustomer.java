@@ -13,6 +13,6 @@ public class NullCustomer extends Customer {
     }
 
     public void setPlan(BillingPlan plan) {
-        
+
     }
 }
