@@ -23,7 +23,7 @@ public class Test {
         Assert.assertEquals(3, kent.getCourses().size());
 
         kent.numberOfAdvancedCourses();
-        kent.getCourses().size();
+        kent.numberOfCourses();
 
     }
 
