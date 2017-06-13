@@ -9,7 +9,7 @@ public class MyStack extends Vector {
     private Vector _vector = this;
 
     public void push(Object element) {
-        insertElementAt(element, 0);
+        _vector.insertElementAt(element,0);
     }
 
     public Object pop() {
