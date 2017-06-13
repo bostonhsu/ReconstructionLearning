@@ -1,5 +1,7 @@
 package test870;
 
+import junit.framework.Assert;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -20,5 +22,10 @@ public class Customer {
 
     public double getDiscount() {
         return 0;
+    }
+
+    double getPriceFor(Order order) {
+        Assert.isTrue(_orders.contains(order));
+        return order.getDiscountPrice(this);
     }
 }
