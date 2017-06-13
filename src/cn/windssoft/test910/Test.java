@@ -50,11 +50,7 @@ public class Test {
     }
 
     public double test3() {
-        if (onVacation() && lengthOfService() > 10) {
-            return 1;
-        } else {
-            return 0.5;
-        }
+        return (onVacation() && lengthOfService() > 10) ? 1 : 0.5;
     }
 
     private int lengthOfService() {
