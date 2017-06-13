@@ -15,10 +15,7 @@ public class Customer {
     }
 
     void addOrder(Order arg) {
-        arg.addCustomer(this);
+        arg.setCustomer(this);
     }
-
-    void removeOrder(Order arg) {
-        arg.removeCustomer(this);
-    }
+    
 }
