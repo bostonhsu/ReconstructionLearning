@@ -2,9 +2,7 @@ package cn.windssoft.test8110;
 
 import junit.framework.Assert;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by Administrator on 2017/6/13.
@@ -13,7 +11,7 @@ public class Person {
     private Set _courses = new HashSet();
 
     public Set getCourses() {
-        return _courses;
+        return Collections.unmodifiableSet(_courses);
     }
 
     public void addCourse(Course arg) {
