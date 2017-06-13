@@ -80,7 +80,7 @@ public class Test {
                 }
             }
         }
-        return found;
+        return "";
     }
 
     private void someLaterCode(String found) {
