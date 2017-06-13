@@ -62,16 +62,29 @@ public class Test {
     }
 
     public void checkSecurity(String[] people) {
+        String found = foundMiscreant(people);
+        someLaterCode(found);
+    }
+
+    private String foundMiscreant(String[] people) {
+        String found = "";
         for (int i = 0; i < people.length; i++) {
-            if (people[i].equals("Don")) {
-                sendAlert();
-                break;
-            }
-            if (people[i].equals("John")) {
-                sendAlert();
-                break;
+            if (found.equals("")) {
+                if (people[i].equals("Don")) {
+                    sendAlert();
+                    found = "Don";
+                }
+                if (people[i].equals("John")) {
+                    sendAlert();
+                    found = "John";
+                }
             }
         }
+        return found;
+    }
+
+    private void someLaterCode(String found) {
+
     }
 
     private void sendAlert() {
