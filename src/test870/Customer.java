@@ -26,6 +26,6 @@ public class Customer {
 
     double getPriceFor(Order order) {
         Assert.isTrue(_orders.contains(order));
-        return order.getDiscountPrice();
+        return order.getDiscountPrice(this);
     }
 }
