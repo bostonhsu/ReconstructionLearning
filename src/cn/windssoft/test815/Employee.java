@@ -23,19 +23,7 @@ public class Employee {
     }
 
     void setType(int arg) {
-        switch (arg) {
-            case ENGINEER:
-                _type = new Engineer();
-                break;
-            case SALESMAN:
-                _type = new Salesman();
-                break;
-            case MANAGER:
-                _type = new Manager();
-                break;
-            default:
-                throw new IllegalArgumentException("Incorrect Employee Code");
-        }
+        _type = EmployeeType.newType(arg);
     }
 
     int payAmount() {
