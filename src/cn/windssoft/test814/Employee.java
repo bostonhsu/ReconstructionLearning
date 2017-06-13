@@ -9,11 +9,15 @@ public class Employee {
     static final int SALESMAN = 1;
     static final int MANAGER = 2;
 
-    Employee(int type) {
+    private Employee(int type) {
         _type = type;
     }
 
     public int getType() {
         return _type;
+    }
+
+    static Employee create(int type) {
+        return new Employee(type);
     }
 }
