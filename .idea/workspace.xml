@@ -32,8 +32,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test8110/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="437">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +44,8 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test8110/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="551">
+              <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
@@ -54,6 +54,8 @@
                 <element signature="e#362#363#0" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
                 <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1057,8 +1059,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test8110/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="437">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1067,8 +1069,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test8110/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="551">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
@@ -1077,6 +1079,8 @@
             <element signature="e#362#363#0" expanded="true" />
             <element signature="e#406#407#0" expanded="true" />
             <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
           </folding>
         </state>
       </provider>

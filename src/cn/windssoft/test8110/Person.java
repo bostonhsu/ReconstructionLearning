@@ -38,4 +38,8 @@ public class Person {
         }
         return count;
     }
+
+    public int numberOfCourses() {
+        return _courses.size();
+    }
 }
