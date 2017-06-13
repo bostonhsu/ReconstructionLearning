@@ -13,9 +13,7 @@ public class Test {
 
         String customerName = customer.getName();
 
-        int weeksDeliquent;
-        if (customer.isNull()) weeksDeliquent = 0;
-        else weeksDeliquent = customer.getHistory().getWeeksDelinquetInLastYear();
+        int weeksDeliquent = customer.getHistory().getWeeksDelinquetInLastYear();
 
         customer.setPlan(BillingPlan.special());
     }
