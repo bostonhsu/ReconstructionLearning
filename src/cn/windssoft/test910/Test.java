@@ -39,9 +39,7 @@ public class Test {
     }
 
     public int test2() {
-        if (_seniority < 2) return 0;
-        if (_monthsDisabled > 12) return 0;
-        if (_isPartTime) return 0;
+        if ((_seniority < 2) || (_monthsDisabled > 12) || (_isPartTime)) return 0;
         // other compute code below
         // ...
         return 0;
