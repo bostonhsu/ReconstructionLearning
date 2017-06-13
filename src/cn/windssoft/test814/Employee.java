@@ -13,7 +13,7 @@ public class Employee {
         _type = type;
     }
 
-    public int getType() {
+    int getType() {
         return _type;
     }
 
