@@ -17,8 +17,8 @@ public class Test {
         kent.addCourse(new Course("Appreciating Single Malts", true));
         Assert.assertEquals(2, kent.getCourses().size());
         Course refact = new Course("Refacting", true);
-        kent.getCourses().add(refact);
-        kent.getCourses().add(new Course("Brutel Sarcasm", false));
+        kent.addCourse(refact);
+        kent.addCourse(new Course("Brutel Sarcasm", false));
         Assert.assertEquals(4, kent.getCourses().size());
         kent.getCourses().remove(refact);
         Assert.assertEquals(3, kent.getCourses().size());
