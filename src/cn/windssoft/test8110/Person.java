@@ -27,4 +27,15 @@ public class Person {
         _courses.addAll(arg);
     }
 
+    int numberOfAdvancedCourses() {
+        Iterator iterator = getCourses().iterator();
+        int count = 0;
+        while (iterator.hasNext()) {
+            Course each = (Course)iterator.next();
+            if (each.isAdvanced()) {
+                count ++;
+            }
+        }
+        return count;
+    }
 }

@@ -3,7 +3,6 @@ package cn.windssoft.test8110;
 import junit.framework.Assert;
 
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 /**
@@ -23,13 +22,7 @@ public class Test {
         kent.getCourses().remove(refact);
         Assert.assertEquals(3, kent.getCourses().size());
 
-        Iterator iterator = kent.getCourses().iterator();
-        int count = 0;
-        while (iterator.hasNext()) {
-            Course each = (Course)iterator.next();
-            if (each.isAdvanced()) {
-                count ++;
-            }
-        }
+        kent.numberOfAdvancedCourses();
     }
+
 }
