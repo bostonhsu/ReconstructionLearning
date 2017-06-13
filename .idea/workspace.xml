@@ -75,13 +75,14 @@
       <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test1111/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#212#213#0" expanded="true" />
                 <element signature="e#262#263#0" expanded="true" />
                 <element signature="e#427#428#0" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
               </folding>
             </state>
@@ -1311,13 +1312,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test1111/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="285">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#262#263#0" expanded="true" />
             <element signature="e#427#428#0" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
           </folding>
         </state>
