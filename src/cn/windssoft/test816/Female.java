@@ -7,9 +7,4 @@ public class Female extends Person {
     protected Female() {
         super(false, 'F');
     }
-
-    @Override
-    char getCode() {
-        return 'F';
-    }
 }

@@ -8,7 +8,9 @@ public abstract class Person {
         return _isMale;
     }
 
-    abstract char getCode();
+    char getCode() {
+        return _code;
+    }
 
     private final boolean _isMale;
     private final char _code;
