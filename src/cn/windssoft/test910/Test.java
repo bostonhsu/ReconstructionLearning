@@ -44,5 +44,6 @@ public class Test {
         if (_isPartTime) return 0;
         // other compute code below
         // ...
+        return 0;
     }
 }
