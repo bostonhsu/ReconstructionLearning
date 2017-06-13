@@ -9,6 +9,8 @@ import java.util.Set;
  * Created by Administrator on 2017/6/13.
  */
 public class Customer {
+    public  String _name;
+
     public static final double aPara = 9.8;
     private Set _orders = new HashSet();
 
