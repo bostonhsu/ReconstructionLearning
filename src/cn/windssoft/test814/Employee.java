@@ -18,6 +18,10 @@ public class Employee {
     }
 
     static Employee create(int type) {
-        return new Employee(type);
+        if (type == ENGINEER) {
+            return new Engineer();
+        } else {
+            return new Employee(type);
+        }
     }
 }
