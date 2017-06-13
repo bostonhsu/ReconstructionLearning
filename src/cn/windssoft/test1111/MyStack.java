@@ -17,4 +17,12 @@ public class MyStack {
         _vector.removeElementAt(0);
         return result;
     }
+
+    public int size() {
+        return _vector.size();
+    }
+
+    public boolean isEmpty() {
+        return _vector.isEmpty();
+    }
 }
