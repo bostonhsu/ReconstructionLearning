@@ -60,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test970/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -70,14 +70,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NullCustomer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NullCustomer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test970/NullCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="209">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="e#154#155#0" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,11 +179,11 @@
         <option value="$PROJECT_DIR$/src/cn/windssoft/test910/Test.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/PaymentHistory.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/BillingPlan.java" />
-        <option value="$PROJECT_DIR$/src/cn/windssoft/test970/NullCustomer.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/Nullable.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/Customer.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/Site.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test970/Test.java" />
+        <option value="$PROJECT_DIR$/src/cn/windssoft/test970/NullCustomer.java" />
       </list>
     </option>
   </component>
@@ -1222,17 +1224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test970/NullCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test970/Nullable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1276,6 +1267,19 @@
         <state relative-caret-position="342">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test970/NullCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
