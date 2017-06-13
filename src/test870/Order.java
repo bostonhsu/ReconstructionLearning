@@ -23,8 +23,8 @@ public class Order {
         }
     }
 
-    double getDiscountPrice() {
-        return getGrossPrice() * (1 - _customer.getDiscount());
+    double getDiscountPrice(Customer customer) {
+        return getGrossPrice() * (1 - customer.getDiscount());
     }
 
     private double getGrossPrice() {
