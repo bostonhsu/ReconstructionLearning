@@ -39,9 +39,13 @@ public class Test {
     }
 
     public int test2() {
-        if ((_seniority < 2) || (_monthsDisabled > 12) || (_isPartTime)) return 0;
+        if (isNotEligibleForDisability()) return 0;
         // other compute code below
         // ...
         return 0;
+    }
+
+    private boolean isNotEligibleForDisability() {
+        return (_seniority < 2) || (_monthsDisabled > 12) || (_isPartTime);
     }
 }
