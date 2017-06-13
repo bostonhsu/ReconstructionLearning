@@ -19,8 +19,8 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test814/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="456">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="e#264#265#0" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
@@ -31,8 +31,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test814/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Engineer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test814/Engineer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Salesman.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test814/Salesman.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
@@ -112,6 +138,8 @@
         <option value="$PROJECT_DIR$/src/cn/windssoft/test813/Person.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test813/BloodGroup.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test814/Engineer.java" />
+        <option value="$PROJECT_DIR$/src/cn/windssoft/test814/Salesman.java" />
+        <option value="$PROJECT_DIR$/src/cn/windssoft/test814/Manager.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test814/Employee.java" />
       </list>
     </option>
@@ -656,20 +684,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test1/ChildTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test2/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test2/FileReaderTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1016,15 +1030,15 @@
         <state relative-caret-position="551">
           <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="e#288#289#0" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1063,12 +1077,12 @@
         <state relative-caret-position="171">
           <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="false" />
+            <element signature="e#221#222#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#303#304#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#378#379#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1078,17 +1092,28 @@
         <state relative-caret-position="266">
           <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="false" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#599#600#0" expanded="false" />
+            <element signature="e#634#635#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test814/Engineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test814/Salesman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
@@ -1099,10 +1124,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test814/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test814/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="456">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="e#264#265#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
