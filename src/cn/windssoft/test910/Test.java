@@ -17,9 +17,21 @@ public class Test {
     public void test() {
         double charge = 0;
         double quantity = 0;
-        if (date.before(SUMMER_START) || date.after(SUMMER_END))
-            charge = quantity * _winterRate + _winterServiceCharge;
+        if (notSummer(date))
+            charge = winterCharge(quantity);
         else
-            charge = quantity * _summerRate;
+            charge = summerCharge(quantity);
+    }
+
+    private double summerCharge(double quantity) {
+        return quantity * _summerRate;
+    }
+
+    private double winterCharge(double quantity) {
+        return quantity * _winterRate + _winterServiceCharge;
+    }
+
+    private boolean notSummer(Date date) {
+        return date.before(SUMMER_START) || date.after(SUMMER_END);
     }
 }
