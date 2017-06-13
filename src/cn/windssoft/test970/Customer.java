@@ -27,5 +27,9 @@ public class Customer implements Nullable {
     protected Customer() {
 
     }
+
+    static Customer newNull() {
+        return new NullCustomer();
+    }
 }
 
