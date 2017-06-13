@@ -6,4 +6,12 @@ package cn.windssoft.test816;
 public abstract class Person {
     abstract boolean isMale();
     abstract char getCode();
+
+    static Person createMale() {
+        return new Male();
+    }
+
+    static Person createFemale() {
+        return new Female();
+    }
 }

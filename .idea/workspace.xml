@@ -16,12 +16,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test816/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="266">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Female.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Female.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test816/Female.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#153#154#0" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
@@ -125,9 +130,9 @@
         <option value="$PROJECT_DIR$/src/cn/windssoft/test815/Salesman.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test815/EmployeeType.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test815/Employee.java" />
-        <option value="$PROJECT_DIR$/src/cn/windssoft/test816/Person.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test816/Male.java" />
         <option value="$PROJECT_DIR$/src/cn/windssoft/test816/Female.java" />
+        <option value="$PROJECT_DIR$/src/cn/windssoft/test816/Person.java" />
       </list>
     </option>
   </component>
@@ -1133,14 +1138,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test816/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test816/Male.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1156,13 +1153,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test816/Female.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#153#154#0" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/windssoft/test816/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
           </folding>
         </state>
       </provider>
