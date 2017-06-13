@@ -9,4 +9,8 @@ public class PaymentHistory {
     public int getWeeksDelinquetInLastYear() {
         return _lastYear;
     }
+
+    public static PaymentHistory newNull() {
+        return new NullPaymentHistory();
+    }
 }

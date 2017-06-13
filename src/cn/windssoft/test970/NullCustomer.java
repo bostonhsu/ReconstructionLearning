@@ -15,4 +15,8 @@ public class NullCustomer extends Customer {
     public void setPlan(BillingPlan plan) {
 
     }
+
+    public PaymentHistory getHistory() {
+        return PaymentHistory.newNull();
+    }
 }
