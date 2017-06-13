@@ -16,6 +16,38 @@ public class Test {
     private int _seniority;
     private int _monthsDisabled;
     private boolean _isPartTime;
+    private boolean _isDead;
+    private boolean _isSeperate;
+    private boolean _isRetired;
+
+    double getPayAmount() {
+        double result;
+        if (_isDead) result = deadAmount();
+        else {
+            if (_isSeperate) result = seperateAmount();
+            else {
+                if (_isRetired) result = retireAmount();
+                else result = normalPayAmount();
+            };
+        }
+        return result;
+    }
+
+    private double normalPayAmount() {
+        return 0;
+    }
+
+    private double retireAmount() {
+        return 0;
+    }
+
+    private double seperateAmount() {
+        return 0;
+    }
+
+    private double deadAmount() {
+        return 0;
+    }
 
     public void test() {
         double charge = 0;
@@ -86,4 +118,6 @@ public class Test {
 
     private void sendAlert() {
     }
+
+
 }
