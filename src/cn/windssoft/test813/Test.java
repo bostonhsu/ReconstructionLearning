@@ -8,5 +8,6 @@ public class Test {
         Person thePerson = new Person(BloodGroup.A);
 
         thePerson.getBloodGroup().getCode();
+        thePerson.setBloodGroup(Person.AB);
     }
 }
